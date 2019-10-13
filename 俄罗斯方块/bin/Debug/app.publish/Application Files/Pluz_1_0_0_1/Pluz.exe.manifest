@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pluz.exe" version="1.0.0.1" publicKeyToken="85ec844c1afccba0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pluz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Pluz.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pluz.exe" size="16896">
+      <assemblyIdentity name="Pluz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K7cZq07dlqVDSKS75DWZP8If9T+/16fo1J8YhfFc02o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Pluz.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-RNMR84B\11256" issuerKeyHash="96f0251670bac74db1330f359ca218bcafa75683" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GGnNB4HSjm5UmL0IULBrmM/sL31IToiehUwkLeTZ6Nw=</DigestValue></Reference></SignedInfo><SignatureValue>OuxmbY5XziDU+rG9Td+MCC34C6WiB0MSg5nBani0TFZecJ1H49o8reopKYA/qOScVvVnW2xD/xU3xxTS01CsRf0w2nJH2i1uZRFrnYS6VX4VC2gPfOKQyL+Frb/+FgCU2auGpr/zN/ONZGKOpeJIIIQMf7m12EPHDOSS9BkxDrY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q8m4IUXRy7Xf1389xYct+5SOOYgotd/JNqUrz7RIxLRF5KAt9xk49lTdBkkkC+XQ9TASjeJUqUcDznGqtMVccXWwzAGtO8ZcLX48iqIov27CWog3pQj3Utzwq4hfhg2+8E0smyzsO9aaqqcO9nR5mNOvZuWkZgc9WRYAYs+Ex10=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dce8d9e42d244c859e884e487d2feccf986bb05008bd98546e8ed28107cd6918" Description="" Url=""><as:assemblyIdentity name="Pluz.exe" version="1.0.0.1" publicKeyToken="85ec844c1afccba0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-RNMR84B\11256</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W9MBBEO/hEWcV5SfVIG6lcqRlryPBR81u7ZBPf7AV9I=</DigestValue></Reference></SignedInfo><SignatureValue>UMDE+TuBtlCXifGn6LlsGJoV9vIChzzRkf0VxYsVqqnRxueSjxG1B8v+ojKQJoxWYNNpPxtSqcbjXG1KnhOYyS4w0ECpyw7/87BE9qqD2GcwQMxYM4EJiYwfvz416Wmi4oRXfE0dGQGNtcim/2NuRLWoS4aFrnADVxnuR2EF99I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q8m4IUXRy7Xf1389xYct+5SOOYgotd/JNqUrz7RIxLRF5KAt9xk49lTdBkkkC+XQ9TASjeJUqUcDznGqtMVccXWwzAGtO8ZcLX48iqIov27CWog3pQj3Utzwq4hfhg2+8E0smyzsO9aaqqcO9nR5mNOvZuWkZgc9WRYAYs+Ex10=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQV9tXyUjjYYhMcoMPNZ9HijANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFIATgBNAFIAOAA0AEIAXAAxADEAMgA1ADYwHhcNMTkxMDEyMDMyODM3WhcNMjAxMDExMDkyODM3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFIATgBNAFIAOAA0AEIAXAAxADEAMgA1ADYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKvJuCFF0cu139d/PcWHLfuUjjmIKLXfyTalK8+0SMS0ReSgLfcZOPZU3QZJJAvl0PUwEo3iVKlHA85xqrTFXHF1sMwBrTvGXC1+PIqiKL9uwlqIN6UI91Lc8KuIX4YNvvBNLJss7DvWmqqnDvZ0eZjTr2blpGYHPVkWAGLPhMddAgMBAAEwDQYJKoZIhvcNAQELBQADgYEASxKCkRcNRORZN0+UmLEcwxTkjpfJyVyLZCQisvlkGWY+72LZaSt1dO3ULdBwtH/eXR2WUEGbB9COPCdLj4riydNqhOer4LIasogf0KSLqijUfNF60jQPNRqxtF/Cborub6/uh3Zk1SkkjZcRs4qxPgECPBzarRLGLikr+omEuiU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

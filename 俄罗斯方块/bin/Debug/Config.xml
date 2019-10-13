@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contorl>
+  <change>w</change>
+  <down>s</down>
+  <left>a</left>
+  <right>d</right>
+  <shoot>j</shoot>
+</Contorl>
